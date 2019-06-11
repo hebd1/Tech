@@ -1,0 +1,15 @@
+body {
+    font-family: 'Press Start 2P', cursive;
+    background: #779ecb;
+}
+
+#main_nav .navbar-brand {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+/* background change on hover */
+#main_nav .nav-link:hover {
+    color: white;
+}
