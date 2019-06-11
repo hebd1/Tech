@@ -12,8 +12,8 @@
     <title>Tech</title>
   </head>
   <body>
-    
-    <nav id="main_nav" class="navbar navbar-dark bg-dark navbar-expand-md">
+    <!-- fixed top fixes navbar on scroll -->
+    <nav id="main_nav" class="navbar navbar-dark navbar-expand-md fixed-top">
         <a href="#" class="navbar-brand">Tech</a>
         <!-- aria label is used for screen readers -->
         <button class="navbar-toggler" data-toggle="collapse" data-target="#nav_links" aria-label="Toggle Navigation">
@@ -33,6 +33,27 @@
             </ul>
         </div>
     </nav>
+<!-- fluid containers go all the way across the screen  -->
+<!-- px0 gets rid of padding on the left and right -->
+    <section class="container-fluid px-0">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <!-- d-none sets display to none by default and block on large -->
+                <div id="heading" class="text-white text-center d-none d-lg-block">
+                   <h2 class="">Technology<span>/</span>Technology<span>/</span></h2>
+                   <h2 class="">Technology<span>/</span>Technology<span>/</span></h2>
+                   <h2 class="">Technology<span>/</span>Technology<span>/</span></h2>
+                   <h2 class="">Technology<span>/</span>Technology<span>/</span></h2>
+                   <h2 class="">Technology<span>/</span>Technology<span>/</span></h2>
+                   <h2 class="">Technology<span>/</span>Technology<span>/</span></h2>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <!-- img-fluid bootstrap property makes images scale easier -->
+                <img class="img-fluid" src="https://images.unsplash.com/photo-1484557052118-f32bd25b45b5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="">
+            </div>
+        </div>
+    </section>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

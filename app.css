@@ -9,7 +9,25 @@ body {
     font-weight: 100;
 }
 
+#main_nav .nav-link {
+    color: white;
+}
+
+
 /* background change on hover */
 #main_nav .nav-link:hover {
-    color: white;
+    color: grey;
+}
+
+/* # points to an id */
+#heading span {
+    color: grey;
+}
+
+/* media queries are used to change content when screen is a certain size  */
+@media (max-width: 1400px) {
+    #heading h2 {
+        font-weight: 100;
+        font-size: 1.5rem;
+    }
 }
