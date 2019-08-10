@@ -13,6 +13,11 @@ body {
     color: white;
 }
 
+section {
+    color: white;
+    font-weight: 100;
+    font-size: 1.5rem;
+}
 
 /* background change on hover */
 #main_nav .nav-link:hover {
@@ -22,6 +27,12 @@ body {
 /* # points to an id */
 #heading span {
     color: grey;
+}
+
+/* change background of navbar when scrolling */
+.navbar.scrolled {
+    background: grey;
+    transition: background 500ms;
 }
 
 /* media queries are used to change content when screen is a certain size  */
